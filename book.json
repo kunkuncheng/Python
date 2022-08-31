@@ -1,0 +1,47 @@
+{
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-pro",
+    "-sharing",
+    "sharing-plus",
+    "github",
+    "code",
+    "tbfed-pagefooter",
+    "back-to-top-button"
+  ],
+  "pluginsConfig": {
+    "sharing": {
+      "facebook": false,
+      "twitter": false,
+      "all": [
+        "facebook",
+        "google",
+        "twitter",
+        "qq"
+      ]
+    },
+    "github": {
+      "url": "https://github.com/kunkuncheng"
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy KunCheng",
+      "modify_label": "更新时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    }
+  },
+  "author": "KunCheng",
+  "title": "Python入门教程",
+  "language": "zh-hans",
+  "description": "Python入门教程",
+  "isbn": "000-0-00-000000-0",
+  "direction": "ltr",
+  "gitbook": ">=3.2.3",
+  "styles": {
+    "website": "styles/website.css",
+    "ebook": "styles/ebook.css",
+    "pdf": "styles/pdf.css",
+    "mobi": "styles/mobi.css",
+    "epub": "styles/epub.css"
+  }
+}
